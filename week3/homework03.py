@@ -38,3 +38,5 @@ for tr in tr_1:
         'artist' : artist   #db 'artist' 컬럼에 artist 값 넣기
     }
     db.genie.insert_one(doc)    #genie에 doc를 넣읍시다
+    #robo 3t에서 확인하기, run 진행 전 mongodb run 상태인지 확인 필수
+    
